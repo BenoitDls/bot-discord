@@ -8,3 +8,4 @@ bot.on('message', function(message){
         message.reply('ntm fdp')
     }
 })
+
