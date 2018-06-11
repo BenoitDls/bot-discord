@@ -1,11 +1,12 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client
+require('dotenv').config()
 
-bot.login('NDUzMjM2NjEwMDI1MTI3OTUw.DfcDtg.TMRAcMvCROc3ow6S7ZEt9IXKmZk')
+bot.login(process.env.DISCORD_TOKEN)
 
 bot.on('message', function(message){
-    if (message.content === '!ping') {
-        message.reply('ntm fdp')
+    if (message.content === '!marco') {
+        message.reply('polo')
     }
 })
 

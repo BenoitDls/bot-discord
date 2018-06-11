@@ -65,3 +65,8 @@ typings/
 
 # Serverless directories
 .serverless
+.idea/bot-discord.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+secret.env
